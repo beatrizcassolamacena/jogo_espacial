@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Aventura Espacial</title>
+</head>
+<body>
+
+    <main>
+        
+        <div class="passo ativo" id="passo-0">
+            <img src="nave.jpg" alt="nave espacial no espaço" class="imagem">
+            <p>Após anos de pesquisa, você descobre uma antiga civilização perdida em um planeta distante. Você está a bordo de sua nave e pronto para iniciar essa incrível jornada!</p>
+            <button class="btn-proximo" data-proximo="1">Explorar o Planeta X</button>
+            <button class="btn-proximo" data-proximo="2">Explorar a Lua Zeta</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Você decide explorar o Planeta X, uma esfera coberta por vastos desertos e misteriosas ruínas. O que você faz primeiro?</p>
+            <button class="btn-proximo" data-proximo="3">Investigar as ruínas antigas</button>
+            <button class="btn-proximo" data-proximo="4">Explorar a caverna escura</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Na Lua Zeta, você encontra uma base abandonada, com sinais de uma civilização que viveu ali há muito tempo. Como você começa sua investigação?</p>
+            <button class="btn-proximo" data-proximo="5">Examinar os equipamentos da base</button>
+            <button class="btn-proximo" data-proximo="6">Explorar as cavernas sob a lua</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Nas ruínas, você encontra um artefato que leva você a um planeta distante, conhecido como Vortex Prime, um lugar proibido para os mortais.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Vortex Prime</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="deserto.jpg" alt="deserto vasto no Planeta X">
+            <p>A caverna era uma armadilha! Agora você está perdido e sem suprimentos. Infelizmente, sua jornada termina aqui.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Na base, você encontra um diário antigo que fala sobre uma civilização que viajou pelo espaço, mas o que mais te impressiona é um mapa indicando o caminho para Vortex Prime.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Vortex Prime</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>As cavernas são imensas, mas não há nada além de pedras. Ao tentar voltar, você acaba preso em um campo magnético e não consegue escapar.</p>
+            <button class="btn-proximo" data-proximo="8">Tentar novamente em outro local</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Em Vortex Prime, você encontra uma civilização antiga e seu líder, que revela segredos cósmicos sobre a origem do universo.</p>
+            <button class="btn-proximo" data-proximo="9">Estudar a civilização e seus segredos</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você decide voltar para a nave e tentar explorar outro planeta. Mas o tempo está contra você.</p>
+            <button class="btn-proximo" data-proximo="1">Voltar ao Planeta X</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="alien.jpg" alt="civilização antiga e alienígena">
+            <p>Você fica maravilhado com a sabedoria da civilização perdida. Eles compartilham conhecimentos ancestrais e você se torna um guardião do universo.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
